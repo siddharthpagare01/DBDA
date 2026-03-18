@@ -79,6 +79,11 @@ or
 ```
 feature:install odl-restconf
 feature:install odl-openflowplugin-all
+feature:install odl-openflowplugin-app-forwardingrules-manager
+feature:install odl-openflowplugin-app-topology-lldp-discovery
+feature:install odl-openflowplugin-southbound
+feature:install odl-openflowplugin-flow-services
+feature:install odl-openflowplugin-app-topology
 ```
 👉 This enables:
 
