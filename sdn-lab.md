@@ -1,8 +1,4 @@
-Perfect 🔥 — let’s set up **Mininet + OpenDaylight (ODL)** *properly from scratch*, the way you’d actually do it for CDAC + interviews.
 
-I’ll keep it **step-by-step + copy-paste ready + Hinglish explanation**.
-
----
 
 # 🧪 Full SDN Setup: Mininet + OpenDaylight
 
@@ -217,23 +213,6 @@ Restart everything
 
 * ODL running
 * Port 8181 open
-
----
-
-# 🧾 Viva Answer (Perfect 💯)
-
-> In this lab, OpenDaylight acts as the SDN controller and Mininet emulates network devices. The controller communicates with switches using OpenFlow protocol and installs flow rules dynamically, demonstrating centralized control.
-
----
-
-# 🚀 Next Level (if you want 🔥)
-
-I can guide you for:
-
-* ✅ Add **custom flow rules**
-* ✅ Implement **SDN firewall**
-* ✅ Use **REST API commands**
-* ✅ Compare **ODL vs RYU (interview)**
 
 ---
 
