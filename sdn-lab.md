@@ -75,7 +75,11 @@ feature:install odl-restconf
 feature:install odl-l2switch-switch
 feature:install odl-mdsal-apidocs
 ```
-
+or 
+```
+feature:install odl-restconf
+feature:install odl-openflowplugin-all
+```
 👉 This enables:
 
 * REST API
