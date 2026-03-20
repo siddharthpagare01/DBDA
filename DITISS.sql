@@ -1,0 +1,72 @@
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    department VARCHAR(50),
+    salary INT,
+    city VARCHAR(50),
+    email VARCHAR(100),
+    phone VARCHAR(15),
+    joining_date DATE,
+    status VARCHAR(20)
+);
+
+INSERT INTO employees VALUES
+(1,'Emp1',21,'IT',30100,'Mumbai','emp1@mail.com','9000000001','2023-01-01','Active'),
+(2,'Emp2',22,'HR',30200,'Pune','emp2@mail.com','9000000002','2023-01-02','Active'),
+(3,'Emp3',23,'Sales',30300,'Delhi','emp3@mail.com','9000000003','2023-01-03','Active'),
+(4,'Emp4',24,'IT',30400,'Mumbai','emp4@mail.com','9000000004','2023-01-04','Inactive'),
+(5,'Emp5',25,'HR',30500,'Pune','emp5@mail.com','9000000005','2023-01-05','Active'),
+(6,'Emp6',26,'Sales',30600,'Delhi','emp6@mail.com','9000000006','2023-01-06','Active'),
+(7,'Emp7',27,'IT',30700,'Mumbai','emp7@mail.com','9000000007','2023-01-07','Active'),
+(8,'Emp8',28,'HR',30800,'Pune','emp8@mail.com','9000000008','2023-01-08','Inactive'),
+(9,'Emp9',29,'Sales',30900,'Delhi','emp9@mail.com','9000000009','2023-01-09','Active'),
+(10,'Emp10',20,'IT',31000,'Mumbai','emp10@mail.com','9000000010','2023-01-10','Active'),
+
+(11,'Emp11',21,'HR',31100,'Pune','emp11@mail.com','9000000011','2023-01-11','Active'),
+(12,'Emp12',22,'Sales',31200,'Delhi','emp12@mail.com','9000000012','2023-01-12','Inactive'),
+(13,'Emp13',23,'IT',31300,'Mumbai','emp13@mail.com','9000000013','2023-01-13','Active'),
+(14,'Emp14',24,'HR',31400,'Pune','emp14@mail.com','9000000014','2023-01-14','Active'),
+(15,'Emp15',25,'Sales',31500,'Delhi','emp15@mail.com','9000000015','2023-01-15','Active'),
+(16,'Emp16',26,'IT',31600,'Mumbai','emp16@mail.com','9000000016','2023-01-16','Inactive'),
+(17,'Emp17',27,'HR',31700,'Pune','emp17@mail.com','9000000017','2023-01-17','Active'),
+(18,'Emp18',28,'Sales',31800,'Delhi','emp18@mail.com','9000000018','2023-01-18','Active'),
+(19,'Emp19',29,'IT',31900,'Mumbai','emp19@mail.com','9000000019','2023-01-19','Active'),
+(20,'Emp20',20,'HR',32000,'Pune','emp20@mail.com','9000000020','2023-01-20','Inactive'),
+
+(21,'Emp21',21,'Sales',32100,'Delhi','emp21@mail.com','9000000021','2023-01-21','Active'),
+(22,'Emp22',22,'IT',32200,'Mumbai','emp22@mail.com','9000000022','2023-01-22','Active'),
+(23,'Emp23',23,'HR',32300,'Pune','emp23@mail.com','9000000023','2023-01-23','Active'),
+(24,'Emp24',24,'Sales',32400,'Delhi','emp24@mail.com','9000000024','2023-01-24','Inactive'),
+(25,'Emp25',25,'IT',32500,'Mumbai','emp25@mail.com','9000000025','2023-01-25','Active'),
+(26,'Emp26',26,'HR',32600,'Pune','emp26@mail.com','9000000026','2023-01-26','Active'),
+(27,'Emp27',27,'Sales',32700,'Delhi','emp27@mail.com','9000000027','2023-01-27','Active'),
+(28,'Emp28',28,'IT',32800,'Mumbai','emp28@mail.com','9000000028','2023-01-28','Inactive'),
+(29,'Emp29',29,'HR',32900,'Pune','emp29@mail.com','9000000029','2023-01-29','Active'),
+(30,'Emp30',20,'Sales',33000,'Delhi','emp30@mail.com','9000000030','2023-01-30','Active'),
+
+(31,'Emp31',21,'IT',33100,'Mumbai','emp31@mail.com','9000000031','2023-01-31','Active'),
+(32,'Emp32',22,'HR',33200,'Pune','emp32@mail.com','9000000032','2023-02-01','Inactive'),
+(33,'Emp33',23,'Sales',33300,'Delhi','emp33@mail.com','9000000033','2023-02-02','Active'),
+(34,'Emp34',24,'IT',33400,'Mumbai','emp34@mail.com','9000000034','2023-02-03','Active'),
+(35,'Emp35',25,'HR',33500,'Pune','emp35@mail.com','9000000035','2023-02-04','Active'),
+(36,'Emp36',26,'Sales',33600,'Delhi','emp36@mail.com','9000000036','2023-02-05','Inactive'),
+(37,'Emp37',27,'IT',33700,'Mumbai','emp37@mail.com','9000000037','2023-02-06','Active'),
+(38,'Emp38',28,'HR',33800,'Pune','emp38@mail.com','9000000038','2023-02-07','Active'),
+(39,'Emp39',29,'Sales',33900,'Delhi','emp39@mail.com','9000000039','2023-02-08','Active'),
+(40,'Emp40',20,'IT',34000,'Mumbai','emp40@mail.com','9000000040','2023-02-09','Inactive'),
+
+(41,'Emp41',21,'HR',34100,'Pune','emp41@mail.com','9000000041','2023-02-10','Active'),
+(42,'Emp42',22,'Sales',34200,'Delhi','emp42@mail.com','9000000042','2023-02-11','Active'),
+(43,'Emp43',23,'IT',34300,'Mumbai','emp43@mail.com','9000000043','2023-02-12','Active'),
+(44,'Emp44',24,'HR',34400,'Pune','emp44@mail.com','9000000044','2023-02-13','Inactive'),
+(45,'Emp45',25,'Sales',34500,'Delhi','emp45@mail.com','9000000045','2023-02-14','Active'),
+(46,'Emp46',26,'IT',34600,'Mumbai','emp46@mail.com','9000000046','2023-02-15','Active'),
+(47,'Emp47',27,'HR',34700,'Pune','emp47@mail.com','9000000047','2023-02-16','Active'),
+(48,'Emp48',28,'Sales',34800,'Delhi','emp48@mail.com','9000000048','2023-02-17','Inactive'),
+(49,'Emp49',29,'IT',34900,'Mumbai','emp49@mail.com','9000000049','2023-02-18','Active'),
+(50,'Emp50',20,'HR',35000,'Pune','emp50@mail.com','9000000050','2023-02-19','Active'),
+
+-- continue same pattern...
+
+(100,'Emp100',20,'IT',40000,'Mumbai','emp100@mail.com','9000000100','2023-04-10','Active');
