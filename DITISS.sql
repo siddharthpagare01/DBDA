@@ -67,6 +67,4 @@ INSERT INTO employees VALUES
 (49,'Emp49',29,'IT',34900,'Mumbai','emp49@mail.com','9000000049','2023-02-18','Active'),
 (50,'Emp50',20,'HR',35000,'Pune','emp50@mail.com','9000000050','2023-02-19','Active'),
 
--- continue same pattern...
 
-(100,'Emp100',20,'IT',40000,'Mumbai','emp100@mail.com','9000000100','2023-04-10','Active');
